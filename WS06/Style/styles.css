@@ -1,0 +1,77 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for header */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main horizontal navigation styling */
+.main-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+}
+
+.main-nav a:hover {
+    color: red;
+}
+
+/* Layout container */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Vertical navigation styling */
+.vertical-nav {
+    float: left;
+    width: 20%;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.vertical-nav ul {
+    list-style: none;
+}
+
+.vertical-nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.vertical-nav a:hover {
+    background-color: #ddd;
+}
+
+/* Content section with two columns */
+.content {
+    display: flex;
+    width: 80%;
+    padding: 0 20px;
+}
+
+.column {
+    width: 50%;
+    padding: 10px;
+}
+
+/* Styling for spacing and readability */
+p {
+    padding: 10px;
+}
